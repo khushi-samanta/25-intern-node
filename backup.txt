@@ -1,0 +1,58 @@
+// console.log("hello")
+// var user = require("./user")
+// console.log(user)
+// console.log(user.userName)
+// console.log(user.userAge)
+// user.printUserData(100)
+
+// const express = require("express")
+// const app = express()
+// app.get("/test",(req,res)=>{
+//     console.log("test api called...")
+//     res.send("hello test api called...")
+// })
+// app.get("/user",(req,res)=>{
+//     res.json({
+//         message:"user api called...",
+//         data:["ram","shyam","seeta"]
+//     })
+// })
+// app.get("/employe",(req,res)=>{
+//     res.json({employess:[
+//         {
+//         id:"1",
+//         name:"khushi",
+//         age:22,
+//         salary:30000,
+//         },
+//     {
+//         id:"2",
+//         name:"ishan",
+//         age:24, 
+//         salary:25000,
+//     },
+//     {
+//         id:"3",
+//         name:"sumit",
+//         age:21, 
+//         salary:12000,
+//     },
+//     {
+//         id:"4",
+//         name:"sumit",
+//         age:21, 
+//         salary:12000,
+//     },
+//     {
+//         id:"5",
+//         name:"sumit",
+//         age:21, 
+//         salary:12000,
+//     },
+//     {
+//         id:"6",
+//         name:"sumit",
+//         age:21, 
+//         salary:12000,
+//     }
+// ]})
