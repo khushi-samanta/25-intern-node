@@ -1,0 +1,10 @@
+const routes = require ('express').Router();
+const HordingController = require('../controller/HordingConrtoller');
+routes.post("/addhording",HordingController.addHording);
+routes.get("/getallhordings",HordingController.getallHordings);
+routes.delete("/deletehording/:id",HordingController.deleteHording);
+routes.post('/addWithFile', HordingController.addHordingWithFile);
+routes.get("/getHordingsbyuserid/:userId",HordingController.getallHordingsByUserId);    
+routes.put("/updateById/:id",HordingController.updateHordingById);
+routes.get("/getHordingById/:id",HordingController.getHordingById);
+module.exports = routes;
